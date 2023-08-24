@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Albertsthal Typewriter";
+    src: url("/fonts/albertsthal_typewriter-webfont.woff") format("woff");
+    src: url("/fonts/albertsthal_typewriter-webfont.woff2") format("woff2");
+}
+
 body {
     font-family: 'Lora'; font-size: 20px;
     margin: 0;
@@ -7,7 +13,7 @@ body {
     background-image: url("/images/background-alt.png");
 }
 h1 {
-    font-family: 'Courier Prime'; font-size: 20px; font-weight: bold;
+    font-family: 'Albertsthal Typewriter', courier, serif;font-size: 20px; font-weight: bold;
 }
 p {
     font-family: 'Lora'; font-size: 20px;
@@ -17,11 +23,11 @@ p {
 .navBar {
     background: rgb(255,85,238);
     background: linear-gradient(90deg, rgba(255,85,238,1) 0%, rgba(58,58,58,1) 42%);
-    font-family: 'Courier Prime'; font-size: 40px;
+    font-family: 'Albertsthal Typewriter', courier, serif; font-size: 40px;
     font-weight: bold;
 }
 .footer { 
     background: rgb(255,85,238);
     background: linear-gradient(270deg, rgba(255,85,238,1) 0%, rgba(58,58,58,1) 42%);
-    font-family: 'Courier Prime'; font-size: 14px;
+    font-family: 'Albertsthal Typewriter', courier, serif; font-size: 14px;
 }
