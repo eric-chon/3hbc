@@ -19,15 +19,36 @@ p {
     font-family: 'Lora'; font-size: 20px;
 }
 
-/* Halftone Pattern */
 .navBar {
     background: rgb(255,85,238);
-    background: linear-gradient(90deg, rgba(255,85,238,1) 0%, rgba(58,58,58,1) 42%);
-    font-family: 'Albertsthal Typewriter', courier, serif; font-size: 40px;
-    font-weight: bold;
+    background: linear-gradient(90deg, rgba(255,85,238,1) 0%, rgba(58,58,58,1) 25%);
+    font-family: 'Albertsthal Typewriter', courier, serif;
+    align-items: center;
+    display: flex;
+    z-index: 1;
 }
-.footer { 
+.navBar a {
+    text-decoration: none;
+    color: #f3e;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 20px 0px;
+}
+.navBar a.active {
+    color: #F9E84C !important;
+}
+.navBar a:hover:not(.active){
+    color: #2FE6FF;
+}
+footer { 
     background: rgb(255,85,238);
-    background: linear-gradient(270deg, rgba(255,85,238,1) 0%, rgba(58,58,58,1) 42%);
+    background: linear-gradient(270deg, rgba(255,85,238,1) 0%, rgba(58,58,58,1) 25%);
     font-family: 'Albertsthal Typewriter', courier, serif; font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+    color:#f3e;
+}
+footer a:hover {
+    color: #F9E84C !important;
 }
