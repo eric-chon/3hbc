@@ -4,6 +4,8 @@
     src: url("/fonts/albertsthal_typewriter-webfont.woff2") format("woff2");
 }
 
+/* Text */
+
 body {
     font-family: 'Lora'; font-size: 20px;
     margin: 0;
@@ -17,7 +19,10 @@ h1 {
 }
 p {
     font-family: 'Lora'; font-size: 20px;
+    max-width: 500px;
 }
+
+/* Top Navigation Bar */
 
 .navBar {
     background:
@@ -27,18 +32,19 @@ p {
     radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
     background-color:#3a3a3a;
     background-size:16px 16px;
-
     font-family: 'Albertsthal Typewriter', courier, serif;
     align-items: center;
+    float: none;
     display: flex;
-    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
 }
 .navBar a {
     text-decoration: none;
     color: #f3e;
     font-weight: bold;
     font-size: 20px;
-    padding: 0px 20px 0px;
+    padding: 0px 10px 0px;
 }
 .navBar a.active {
     color: #F9E84C !important;
@@ -46,6 +52,8 @@ p {
 .navBar a:hover:not(.active){
     color: #2FE6FF;
 }
+
+/* Footer */
 footer { 
     background:
     radial-gradient(black 15%, transparent 16%) 0 0,
