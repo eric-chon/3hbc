@@ -12,13 +12,13 @@ body {
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    background-image: url("images/background-alt.png");
+    background-image: url("/images/background-alt.png");
 }
 h1 {
     font-family: 'Albertsthal Typewriter', courier, serif;font-size: 20px; font-weight: bold;
 }
 p {
-    font-family: 'Lora'; font-size: 18px;
+    font-family: 'Lora'; font-size: 16px;
     max-width: 500px;
 }
 
