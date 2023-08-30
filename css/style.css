@@ -7,7 +7,7 @@
 /* Text */
 
 body {
-    font-family: 'Lora'; font-size: 18px;
+    font-family: 'Lora'; font-size: 16px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -15,7 +15,10 @@ body {
     background-image: url("/images/background-alt.png");
 }
 h1 {
-    font-family: 'Albertsthal Typewriter', courier, serif;font-size: 20px; font-weight: bold;
+    font-family: 'Albertsthal Typewriter', courier, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2FE6FF;
 }
 p {
     font-family: 'Lora'; font-size: 16px;
@@ -23,6 +26,11 @@ p {
 }
 
 p a {
+    text-decoration: none;
+    color: #f3e;
+}
+
+li a {
     text-decoration: none;
     color: #f3e;
 }
@@ -49,7 +57,7 @@ p a {
     text-decoration: none;
     color: #f3e;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
     padding: 0px 10px 0px;
 }
 .navBar a.active {
