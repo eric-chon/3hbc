@@ -1,70 +1,107 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Third-Hand Bicycle Co-Op</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+
+<head>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Third-Hand Bicycle Co-Op</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
 <body class="d-flex flex-column h-100">
-  <script src="js/bootstrap.js"></script>
-    
+
   <header>
-    <nav class="fixed-top navBar grid gap-3 justify-content-center">
-        <div class="p-1 g-col-6">
-          <a href="index.html">
-            <img src="images/3hbc-logo.png" alt="" width="100" height="100" padding="0px 10px 0px 0px">
-          </a>
+    <nav class="fixed-top navbar navbar-expand-md navBar">
+      <div class="container" style="max-width: 700px;">
+        <a class="navbar-brand" href="index.html"><img src="images/3hbc-logo.png" alt="" class="img-fluid" width="100px"
+            height="auto" padding="0px 10px 0px 0px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#f3e" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <div class="p-1 g-col-6">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="services.html">SERVICES</a>
+              </li>
+            </div>
+            <div class="p-1 g-col-6">
+              <li class="nav-item">
+                <a class="nav-link active" href="volunteer.html">VOLUNTEERING</a>
+              </li>
+            </div>
+            <div class="p-1 g-col-6">
+              <li class="nav-item">
+                <a class="nav-link" href="donate.html">DONATE!</a>
+              </li>
+            </div>
+          </ul>
         </div>
-        <div class="p-1 g-col-6"><a href="services.html">SERVICES</a></div>
-        <div class="p-1 g-col-6"><a class="active" href="volunteer.html">VOLUNTEERING</a></div>
-        <div class="p-1 g-col-6"><a href="donate.html">DONATE!</a></div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-<!-- Page Content -->    
-<main class="flex-shrink-0" >
-  <div class="container-md" style="max-width: 525px; margin-top: 130px; margin-bottom: 100px;">
+  <!-- Page Content -->
+  <main class="flex-shrink-0">
+    <div class="container-md" style="max-width: 525px; margin-top: 130px; margin-bottom: 100px;">
 
-<!-- Body Copy -->
-  <div style="margin-top: 30px;">
-    <h1>HOW TO BECOME A COORDINATOR</h1>
-    <p>Be the shop you want to see! Coordinators are responsible for opening/closing the shop, managing volunteers, and running the register. Behind the scenes, Coordinators run social media, order inventory, write grants, and work with other community organizations</p>
-    <p>
-      <img src="images/coordinator-main.jpg" alt="A shot of the volunteer vest" width="500px" padding="0px 10px 0px 0px">
-    </p>
-    <p>To become a coordinator, here's what you need to do:
-      <ul>
-        <li>Be a member and log 20+ total volunteer hours.</li>
-        <li>Have a current Coordinator sponsor your candidacy. They will answer your questions and reach out to others to gauge their support.</li>
-        <li>Attend a Coordinator meeting to introduce yourself, meet any unfamiliar Coordinators, and answer questions. Afterwards, get elected unanimously to be a trial Coordinator.</li>
-        <li>Get access to administrative and communication channels and complete a trial month of shadowing other Coordinators.</li>
-        <li>Be affirmed at the next meeting as a full Coordinator, or have your trial period extended as necessary.</li>
-      </ul>
-  </div>
-</div>
-</main>
+      <!-- Body Copy -->
+      <div style="margin-top: 30px;">
+        <h1>HOW TO BECOME A COORDINATOR</h1>
+        <p>Be the shop you want to see! Coordinators are responsible for opening/closing the shop, managing volunteers,
+          and running the register. Behind the scenes, Coordinators run social media, order inventory, write grants, and
+          work with other community organizations</p>
+        <p>
+          <img src="images/coordinator-main.jpg" alt="The Polaroid wall" class= "img-fluid rounded" padding="0px 10px 0px 0px">
+        </p>
+        <p>To become a coordinator, here's what you need to do:
+        <ul>
+          <li>Be a member and log 20+ total volunteer hours.</li>
+          <li>Have a current Coordinator sponsor your candidacy. They will answer your questions and reach out to others
+            to gauge their support.</li>
+          <li>Attend a Coordinator meeting to introduce yourself, meet any unfamiliar Coordinators, and answer
+            questions. Afterwards, get elected unanimously to be a trial Coordinator.</li>
+          <li>Get access to administrative and communication channels and complete a trial month of shadowing other
+            Coordinators.</li>
+          <li>Be affirmed at the next meeting as a full Coordinator, or have your trial period extended as necessary.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
 
-    <footer class="fixed-bottom mt-auto py-2">
-        <div class="container d-flex justify-content-between" style="color: #F3E; font-family: 'Albertsthal Typewriter', courier, serif; font-size: 10px; width: 600px;">
-          <div style="text-decoration: none;">    
-            Phone: 614-299-2984<br>
-            Email: <a href="mailto:info@thirdhand.org">info@thirdhand.org</a><br>
-            <a href="https://facebook.com/thirdhandbicyclecoop/" target="_blank" rel="noopener noreferrer">facebook.com/thirdhandbicyclecoop</a><br>
-            <a href="https://instagram.com/thirdhandbicyclecoop/" target="_blank" rel="noopener noreferrer">instagram.com/thirdhandbicyclecoop/</a>
-          </div>
-          <div class="d-flex align-items-center">
-            <a href="https://instagram.com/thirdhandbicyclecoop/" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" width="30" heigh="30" class="float-end" style="padding: 5px;"></a>
-            <a href="https://facebook.com/thirdhandbicyclecoop/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" width="30" heigh="30" class="float-end" style="padding: 5px;"></a>
-          </div>
-        </div>
-      </footer>
+  <footer class="fixed-bottom mt-auto py-2">
+    <div class="container d-flex justify-content-between"
+      style="color: #F3E; font-family: 'Albertsthal Typewriter', courier, serif; font-size: 10px; max-width: 600px;">
+      <div style="text-decoration: none;">
+        Phone: 614-299-2984<br>
+        Email: <a href="mailto:info@thirdhand.org">info@thirdhand.org</a><br>
+        <a href="https://facebook.com/thirdhandbicyclecoop/" target="_blank"
+          rel="noopener noreferrer">facebook.com/thirdhandbicyclecoop</a><br>
+        <a href="https://instagram.com/thirdhandbicyclecoop/" target="_blank"
+          rel="noopener noreferrer">instagram.com/thirdhandbicyclecoop/</a>
+      </div>
+      <div class="d-flex align-items-center">
+        <a href="https://instagram.com/thirdhandbicyclecoop/" target="_blank" rel="noopener noreferrer"><img
+            src="images/instagram.png" width="30" heigh="30" class="float-end" style="padding: 5px;"></a>
+        <a href="https://facebook.com/thirdhandbicyclecoop/" target="_blank" rel="noopener noreferrer"><img
+            src="images/facebook.png" width="30" heigh="30" class="float-end" style="padding: 5px;"></a>
+      </div>
+    </div>
+  </footer>
 
 </body>

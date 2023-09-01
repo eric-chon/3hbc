@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Albertsthal Typewriter";
-    src: url("fonts/albertsthal_typewriter-webfont.woff") format("woff");
-    src: url("fonts/albertsthal_typewriter-webfont.woff2") format("woff2");
+    src: url("/fonts/albertsthal_typewriter-webfont.woff") format("woff");
+    src: url("/fonts/albertsthal_typewriter-webfont.woff2") format("woff2");
 }
 
 /* Text */
@@ -33,6 +33,7 @@ p a {
 li a {
     text-decoration: none;
     color: #f3e;
+    text-align: right;
 }
 
 /* Top Navigation Bar */
